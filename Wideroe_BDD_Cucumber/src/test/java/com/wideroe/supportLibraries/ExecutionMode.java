@@ -1,0 +1,47 @@
+package com.wideroe.supportLibraries;
+
+/**
+ * 
+ * Enumeration to represent the mode of execution
+ * 
+ * @author Cognizant
+ */
+public enum ExecutionMode {
+	LOCAL("chrome"),
+	PERFECTO("perfecto"), 
+	MOBILE("appium"),
+	/**
+	 * Execute on a mobile device using Appium
+	 */
+
+	SEETEST("seetest"),
+	/**
+	 * Execute on a mobile device using SeeTest
+	 */
+	MINT("mint"),
+
+	/**
+	 * Execute on a mobile device using mint
+	 */
+	
+	SAUCELABS("saucelabs"),
+
+	/**
+	 * Execute on a Browserstack
+	 */
+	
+	BROWSERSTACK("browserstack"),
+
+	;
+	
+	private String value;
+
+	ExecutionMode(String value) {
+		this.value = value;
+	}
+
+	public String getValue() {
+		return value;
+	}
+
+}

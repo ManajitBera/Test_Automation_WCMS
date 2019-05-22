@@ -1,0 +1,124 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8282896097,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukeHooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "To successfully login to My Trip as a registered user",
+        "description": "",
+        "id": "my-trip-login-page.-as-a-guest-user-i-want-to-login-to-my-trip-and-see-the-details;to-successfully-login-to-my-trip-as-a-registered-user;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 86508,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukeHooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 62603121381,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "As a user, I am on the My Trip login page",
+            "match": {
+              "location": "MyTrip_LogInPageStep.as_a_user_I_am_on_the_My_Trip_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1655379780,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter user name \"wideroe.test.smart16@gmail.com\" and password \"Wideroe@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "wideroe.test.smart16@gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "Wideroe@123",
+                  "offset": 65
+                }
+              ],
+              "location": "MyTrip_LogInPageStep.i_enter_user_name_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 289320556,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on login button",
+            "match": {
+              "location": "MyTrip_LogInPageStep.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11003680252,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should redirect to Trip Details Page",
+            "match": {
+              "location": "MyTrip_LogInPageStep.i_should_redirect_to_Trip_Details_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3020962185,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should close the browser",
+            "match": {
+              "location": "MyTrip_LogInPageStep.i_should_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@MyTripLogIn"
+          }
+        ]
+      }
+    ],
+    "name": "My trip login page. As a guest user I want to login to My Trip and see the details",
+    "description": "",
+    "id": "my-trip-login-page.-as-a-guest-user-i-want-to-login-to-my-trip-and-see-the-details",
+    "keyword": "Feature",
+    "uri": "MyTrip_LogIn.feature"
+  }
+]

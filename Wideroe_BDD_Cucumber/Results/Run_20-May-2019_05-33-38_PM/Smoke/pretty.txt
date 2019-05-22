@@ -1,0 +1,27 @@
+Feature: My trip login page. As a guest user I want to login to My Trip and see the details
+
+  @MyTripLogIn
+  Scenario Outline: To successfully login to My Trip as a registered user # MyTrip_LogIn.feature:4
+    Given As a user, I am on the My Trip login page
+    When I enter user name "<UserEmailId>" and password "<Password>"
+    And Click on login button
+    Then I should redirect to Trip Details Page
+    Then I should close the browser
+
+    Examples: 
+
+  @MyTripLogIn
+  Scenario Outline: To successfully login to My Trip as a registered user              # MyTrip_LogIn.feature:14
+    Given As a user, I am on the My Trip login page                                    # MyTrip_LogInPageStep.as_a_user_I_am_on_the_My_Trip_login_page()
+    When I enter user name "wideroe.test.smart16@gmail.com" and password "Wideroe@123" # MyTrip_LogInPageStep.i_enter_user_name_and_password(String,String)
+    And Click on login button                                                          # MyTrip_LogInPageStep.click_on_login_button()
+    Then I should redirect to Trip Details Page                                        # MyTrip_LogInPageStep.i_should_redirect_to_Trip_Details_Page()
+    Then I should close the browser                                                    # MyTrip_LogInPageStep.i_should_close_the_browser()
+
+  @MyTripLogIn
+  Scenario Outline: To successfully login to My Trip as a registered user              # MyTrip_LogIn.feature:15
+    Given As a user, I am on the My Trip login page                                    # MyTrip_LogInPageStep.as_a_user_I_am_on_the_My_Trip_login_page()
+    When I enter user name "wideroe.test.smart16@gmail.com" and password "Wideroe@123" # MyTrip_LogInPageStep.i_enter_user_name_and_password(String,String)
+    And Click on login button                                                          # MyTrip_LogInPageStep.click_on_login_button()
+    Then I should redirect to Trip Details Page                                        # MyTrip_LogInPageStep.i_should_redirect_to_Trip_Details_Page()
+    Then I should close the browser                                                    # MyTrip_LogInPageStep.i_should_close_the_browser()

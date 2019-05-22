@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="252.323508">
+<testcase classname="My trip login page. As a guest user I want to login to My Trip and see the details" name="To successfully login to My Trip as a registered user" time="154.873406">
+<system-out><![CDATA[Given As a user, I am on the My Trip login page.............................passed
+When I enter user name "wideroe.test.smart16@gmail.com" and password "Wideroe@123".passed
+And Click on login button...................................................passed
+Then I should redirect to Trip Details Page.................................passed
+Then I should close the browser.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="My trip login page. As a guest user I want to login to My Trip and see the details" name="To successfully login to My Trip as a registered user 2" time="97.450102">
+<system-out><![CDATA[Given As a user, I am on the My Trip login page.............................passed
+When I enter user name "wideroe.test.smart16@gmail.com" and password "Wideroe@123".passed
+And Click on login button...................................................passed
+Then I should redirect to Trip Details Page.................................passed
+Then I should close the browser.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

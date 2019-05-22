@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCases>
+	<Environment id="qa1">
+	<Feature id="FlightStatus"> 
+		<SU_USER>755531</SU_USER>
+		<SU_PASSWORD>AEIOU321</SU_PASSWORD>				
+	</Feature>
+
+    <Feature id="paymentstatus "> 		
+	</Feature>
+		
+	<Common>
+		<InvFlightNumber>abcd</InvFlightNumber>
+		<FlightNumber>2201</FlightNumber>
+		<Command>S13OctATLMSP</Command>
+		<Detail>ATL-MSP</Detail>
+	</Common>	
+	</Environment>
+	
+	<Environment id="UAT">
+	<Feature id="flightstatus "> 
+		<SU_USER>755531</SU_USER>
+		<SU_PASSWORD>AEIOU321</SU_PASSWORD>				
+	</Feature>
+	
+	
+    <Feature id="paymentstatus "> 
+		
+	</Feature>
+		
+	<Common>
+		<InvFlightNumber>abcd</InvFlightNumber>
+		<FlightNumber>2201</FlightNumber>
+		<Command>S13OctATLMSP</Command>
+		<Detail>ATL-MSP</Detail>
+	</Common>	
+	</Environment>
+	
+</TestCases>

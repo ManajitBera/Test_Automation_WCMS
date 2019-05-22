@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Run Test Cukes]">
+  <listeners>
+    <listener class-name="com.wideroe.supportLibraries.WebDriverListener"/>
+  </listeners>
+  <test thread-count="1" name="Smoke Tests using chrome(failed)">
+    <parameter name="BrowserName" value="CHROME"/>
+    <parameter name="ExecutionMode" value="LOCAL"/>
+    <classes>
+      <class name="com.wideroe.TestNGrunners.RunCucumberTests_Smoke">
+        <methods>
+          <include name="test"/>
+          <include name="copyStoredReports"/>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.wideroe.TestNGrunners.RunCucumberTests_Smoke -->
+    </classes>
+  </test> <!-- Smoke Tests using chrome(failed) -->
+</suite> <!-- Failed suite [Run Test Cukes] -->

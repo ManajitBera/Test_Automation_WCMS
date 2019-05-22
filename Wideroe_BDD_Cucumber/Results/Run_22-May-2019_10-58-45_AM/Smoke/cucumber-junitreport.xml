@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="182.592915">
+<testcase classname="Check-IN Flow. As a guest user I want complete check in successfully and generate boarding pass" name="To successful complete check in for a multipax booking as a guest user and generate boarding pass for the passengers" time="182.592915">
+<skipped><![CDATA[Given As a user, I have a booking in check in window and I am on CMS home page.passed
+And I navigated to Check in landing page....................................undefined
+When I enter booking reference number.......................................undefined
+And I enter Last Name of one of the passenger in the booking................undefined
+And click on Find booking button to retrieve the booking....................undefined
+Then I should see the booking retrieved.....................................undefined
+And trip details page is displayed with booking and passenger details.......undefined
+]]></skipped>
+</testcase>
+</testsuite>

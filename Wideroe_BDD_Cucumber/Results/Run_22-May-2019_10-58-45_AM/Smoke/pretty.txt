@@ -1,0 +1,12 @@
+@CheckIn, @Sanity
+Feature: Check-IN Flow. As a guest user I want complete check in successfully and generate boarding pass
+
+  @CheckIn_MultipaxBooking
+  Scenario: To successful complete check in for a multipax booking as a guest user and generate boarding pass for the passengers # CheckIn.feature:6
+    Given As a user, I have a booking in check in window and I am on CMS home page                                               # CheckIn_Multipax_Step.as_a_user_I_have_a_booking_in_check_in_window_and_I_am_on_CMS_home_page()
+    And I navigated to Check in landing page
+    When I enter booking reference number
+    And I enter Last Name of one of the passenger in the booking
+    And click on Find booking button to retrieve the booking
+    Then I should see the booking retrieved
+    And trip details page is displayed with booking and passenger details

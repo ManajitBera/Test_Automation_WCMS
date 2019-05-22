@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="110.689623">
+<testcase classname="Check-IN Flow. As a guest user I want complete check in successfully and generate boarding pass" name="To successful complete check in for a multipax booking as a guest user and generate boarding pass for the passengers" time="110.689623">
+<skipped><![CDATA[Given As a user, I have a booking in check in window and I am on CMS home page.passed
+And some other precondition.................................................undefined
+When I complete action......................................................undefined
+And some other action.......................................................undefined
+And yet another action......................................................undefined
+Then I validate the outcomes................................................undefined
+And check more outcomes.....................................................undefined
+]]></skipped>
+</testcase>
+</testsuite>

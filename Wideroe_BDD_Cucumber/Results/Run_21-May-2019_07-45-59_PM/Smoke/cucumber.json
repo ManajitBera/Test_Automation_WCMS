@@ -1,0 +1,126 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 15611734343,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukeHooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "To successful complete check in for a multipax booking as a guest user and generate boarding pass for the passengers",
+        "description": "",
+        "id": "check-in-flow.-as-a-guest-user-i-want-complete-check-in-successfully-and-generate-boarding-pass;to-successful-complete-check-in-for-a-multipax-booking-as-a-guest-user-and-generate-boarding-pass-for-the-passengers",
+        "after": [
+          {
+            "result": {
+              "duration": 85335,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CukeHooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 142050927937,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "As a user, I have a booking in check in window and I am on CMS home page",
+            "match": {
+              "location": "CheckIn_Multipax_Step.as_a_user_I_have_a_booking_in_check_in_window_and_I_am_on_CMS_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "some other precondition",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I complete action",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "some other action",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "yet another action",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I validate the outcomes",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "check more outcomes",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@CheckIn_MultipaxBooking"
+          }
+        ]
+      }
+    ],
+    "name": "Check-IN Flow. As a guest user I want complete check in successfully and generate boarding pass",
+    "description": "",
+    "id": "check-in-flow.-as-a-guest-user-i-want-complete-check-in-successfully-and-generate-boarding-pass",
+    "keyword": "Feature",
+    "uri": "CheckIn.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@CheckIn,"
+      },
+      {
+        "line": 2,
+        "name": "@Sanity"
+      }
+    ]
+  }
+]
